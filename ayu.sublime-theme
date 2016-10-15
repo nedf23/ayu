@@ -133,7 +133,7 @@
   {
     "class": "tool_tip_label_control",
     "color": [66, 80, 94],
-    "font.face": "Roboto mono",
+    "font.face": "SF Mono Regular",
     "font.size": 12
   },
 
@@ -284,6 +284,11 @@
     "layer1.texture": "ayu/assets/dark/separator_bottom.png",
     "layer1.inner_margin": [1, 0, 1, 2]
   },
+  {
+    "class": "tabset_control",
+    "settings": ["ui_big_tabs"],
+    "tab_height": 44
+  },
 
   // Tabs
   {
@@ -314,6 +319,11 @@
     "layer3.texture": "ayu/assets/dark/separator_bottom.png",
     "layer3.inner_margin": [1, 0, 1, 2],
     "layer3.opacity": 0.3
+  },
+  {
+    "class": "tab_control",
+    "settings": ["ui_big_tabs"],
+    "content_margin": [15, -2, 15, 0]
   },
 
   // Selected current tab
@@ -348,7 +358,7 @@
     "font.size": 12,
     "font.italic": false,
     "font.bold": false,
-    "font.face": "Roboto mono"
+    "font.face": "SF Mono Regular"
   },
 
   // Tab selected label color
@@ -557,7 +567,7 @@
     "color": [66, 80, 94],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0],
-    "font.face": "Roboto mono",
+    "font.face": "SF Mono Regular",
     "font.size": 12
   },
 
@@ -983,7 +993,7 @@
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
     "font.bold": false,
-    "font.face": "Roboto mono",
+    "font.face": "SF Mono Regular",
     "font.size": 12
   },
 
