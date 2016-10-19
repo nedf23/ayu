@@ -11,7 +11,7 @@ settings:
 
 - settings:
     activeGuide: '#314559'
-    background: &bg '#0F1419'
+    background: &bg '#1C232E'
     caret: '#F29718'
     findHighlight: &constant '#D4BFFF'
     findHighlightForeground: '#00000050'
