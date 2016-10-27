@@ -9,7 +9,7 @@
 
   {
     "class" : "sheet_container_control",
-    "layer0.tint" : [15, 20, 25],
+    "layer0.tint" : [33, 39, 51],
     "layer0.opacity" : 1
   },
 
@@ -21,7 +21,7 @@
   {
     "class": "grid_layout_control",
     "border_size": 0,
-    "border_color": [30, 38, 47]
+    "border_color": [39, 45, 56]
   },
   {
     "class": "grid_layout_control",
@@ -42,13 +42,13 @@
 
   {
     "class": "dialog",
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.opacity": 1.0
   },
 
   {
     "class": "progress_bar_control",
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.opacity": 1.0
   },
 
@@ -88,7 +88,7 @@
 
   {
     "class": "popup_control",
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer0.opacity": 1.0,
     "content_margin": [0, 0]
   },
@@ -96,21 +96,21 @@
   {
     "class": "auto_complete",
     "row_padding": [12, 6],
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer0.opacity": 1.0
   },
 
   {
     "class": "auto_complete_label",
-    "fg": [66, 80, 94],
+    "fg": [80, 98, 115],
     "match_fg": [242, 151, 24],
-    "selected_fg": [230, 225, 207],
+    "selected_fg": [217, 215, 206],
     "selected_match_fg": [242, 151, 24]
   },
 
   {
     "class": "table_row",
-    "layer0.tint": [25, 31, 38],
+    "layer0.tint": [45, 50, 61],
     "layer0.opacity": 0.0
   },
 
@@ -127,7 +127,7 @@
 
   {
     "class": "tool_tip_control",
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.inner_margin": [0, 0],
     "layer0.opacity": 1.0,
     "content_margin": [10, 6]
@@ -135,7 +135,7 @@
 
   {
     "class": "tool_tip_label_control",
-    "color": [66, 80, 94],
+    "color": [80, 98, 115],
     "font.face": "Roboto mono",
     "font.size": 12
   },
@@ -158,7 +158,7 @@
 
   {
     "class": "mini_quick_panel_row",
-    "layer0.tint": [15, 20, 25, 0],
+    "layer0.tint": [33, 39, 51, 0],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0
   },
@@ -168,7 +168,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [25, 31, 38]
+    "layer0.tint": [45, 50, 61]
   },
 
   // Quick panel project setting (project manager) (cmd + ctrl + p)
@@ -176,7 +176,7 @@
   {
     "class": "quick_panel",
     "row_padding": [32, 12],
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer0.opacity": 1.0
   },
 
@@ -185,7 +185,7 @@
   {
     "class": "quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer0.inner_margin": 0,
     "layer0.opacity": 1.0
   },
@@ -195,7 +195,7 @@
   {
     "class": "quick_panel_row",
     "parents": [{"class": "overlay_control"}],
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer0.opacity": 1.0
   },
 
@@ -205,7 +205,7 @@
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "row_padding": [10, 7],
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer0.opacity": 1.0
   },
 
@@ -214,16 +214,16 @@
   {
     "class": "quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [25, 31, 38]
+    "layer0.tint": [45, 50, 61]
   },
 
   // Panel labels
 
   {
     "class": "quick_panel_label",
-    "fg": [66, 80, 94],
+    "fg": [80, 98, 115],
     "match_fg": [242, 151, 24],
-    "selected_fg": [230, 225, 207],
+    "selected_fg": [217, 215, 206],
     "selected_match_fg": [242, 151, 24]
   },
 
@@ -232,9 +232,9 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [66, 80, 94],
+    "fg": [80, 98, 115],
     "match_fg": [242, 151, 24],
-    "selected_fg": [230, 225, 207],
+    "selected_fg": [217, 215, 206],
     "selected_match_fg": [242, 151, 24]
   },
 
@@ -242,18 +242,18 @@
 
   {
     "class": "quick_panel_path_label",
-    "fg": [66, 80, 94],
-    "match_fg": [230, 225, 207],
-    "selected_fg": [66, 80, 94],
-    "selected_match_fg": [230, 225, 207]
+    "fg": [80, 98, 115],
+    "match_fg": [217, 215, 206],
+    "selected_fg": [80, 98, 115],
+    "selected_match_fg": [217, 215, 206]
   },
 
   // Panels data / score
 
   {
     "class": "quick_panel_score_label",
-    "fg": [66, 80, 94],
-    "selected_fg": [66, 80, 94]
+    "fg": [80, 98, 115],
+    "selected_fg": [80, 98, 115]
   },
 
 
@@ -271,7 +271,7 @@
     "mouse_wheel_switch": false,
 
     "layer0.opacity": 1.0,
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "content_margin": [10, 0]
   },
   {
@@ -297,7 +297,7 @@
   {
     "class": "tab_control",
 
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.opacity": 1.0,
 
     "layer1.texture": "",
@@ -355,7 +355,7 @@
 
   {
     "class": "tab_label",
-    "fg": [66, 80, 94],
+    "fg": [80, 98, 115],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
     "font.size": 12,
@@ -369,7 +369,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "fg": [230, 225, 207],
+    "fg": [217, 215, 206],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -527,7 +527,7 @@
     "class": "sidebar_container",
     "content_margin": [0, -10, 0, 0],
     "layer0.opacity": 1,
-    "layer0.tint": [15, 20, 25]
+    "layer0.tint": [33, 39, 51]
   },
   {
     "class": "sidebar_container",
@@ -567,7 +567,7 @@
 
   {
     "class": "sidebar_label",
-    "color": [66, 80, 94],
+    "color": [80, 98, 115],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0],
     "font.face": "Roboto mono",
@@ -577,13 +577,13 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "color": [230, 225, 207]
+    "color": [217, 215, 206]
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "color": [230, 225, 207],
+    "color": [217, 215, 206],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -591,7 +591,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-    "color": [66, 80, 94],
+    "color": [80, 98, 115],
     "font.bold": false
   },
 
@@ -605,13 +605,13 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-    "color": [230, 225, 207]
+    "color": [217, 215, 206]
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-    "color": [230, 225, 207]
+    "color": [217, 215, 206]
   },
 
   {
@@ -624,7 +624,7 @@
   // {
   //  "class": "sidebar_label",
   //  "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-  //  "color": [230, 225, 207]
+  //  "color": [217, 215, 206]
   // },
 
   {
@@ -658,7 +658,7 @@
   {
     "class": "icon_folder",
     "content_margin": [9, 9],
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.opacity": 0,
     "layer1.texture": "ayu/assets/mirage/folder.png",
     "layer1.opacity": 1,
@@ -839,7 +839,7 @@
   // !!!
   {
     "class": "scroll_bar_control",
-    "layer0.tint" : [15, 20, 25],
+    "layer0.tint" : [33, 39, 51],
     "layer0.opacity": 1,
     "layer0.inner_margin": [0, 0],
     "blur": false
@@ -850,7 +850,7 @@
   {
     "class": "scroll_bar_control",
     "parents": [{"class": "overlay_control"}],
-    "layer0.tint": [15, 20, 25, 0],
+    "layer0.tint": [33, 39, 51, 0],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 2],
     "blur": false
@@ -862,7 +862,7 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.texture": "",
-    "layer0.tint" : [15, 20, 25],
+    "layer0.tint" : [33, 39, 51],
     "layer0.inner_margin": [0, 0],
     "blur": false
   },
@@ -873,7 +873,7 @@
   //  "class": "scroll_bar_control",
   //  "attributes": ["horizontal"],
   //  "parents": [{"class": "overlay_control"}],
-  //  "layer0.tint": [15, 20, 25, 0],
+  //  "layer0.tint": [33, 39, 51, 0],
   //  "layer0.opacity": 0.0,
   //  "layer0.inner_margin": [0, 2],
   //  "blur": false
@@ -884,7 +884,7 @@
   {
     "class": "scroll_corner_control",
     "layer0.texture": "",
-    "layer0.tint":[15, 20, 25],
+    "layer0.tint":[33, 39, 51],
     "layer0.inner_margin": [0, 0],
     "layer0.opacity": 1,
     "blur": false
@@ -992,7 +992,7 @@
 
   {
     "class": "label_control",
-    "color": [66, 80, 94],
+    "color": [80, 98, 115],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
     "font.bold": false,
@@ -1005,7 +1005,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "color": [66, 80, 94],
+    "color": [80, 98, 115],
     "font.bold": false
   },
 
@@ -1014,7 +1014,7 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.opacity": 1,
     "layer1.texture": "ayu/assets/mirage/separator_top.png",
     "layer1.inner_margin": [1, 2, 1, 0],
@@ -1023,7 +1023,7 @@
   {
     "class": "status_bar",
     "settings": ["ui_separator"],
-    "layer0.tint": [20, 25, 31]
+    "layer0.tint": [39, 45, 56]
     // "layer1.opacity": 0.3
   },
 
@@ -1046,14 +1046,14 @@
   // Status bar panel
   {
     "class": "panel_control",
-    "layer0.tint": [15, 20, 25],
+    "layer0.tint": [33, 39, 51],
     "layer0.opacity": 1.0,
     "content_margin": [0, 5]
   },
   {
     "class": "panel_control",
     "settings": ["ui_separator"],
-    "layer0.tint": [20, 25, 31],
+    "layer0.tint": [39, 45, 56],
     "layer1.texture": "ayu/assets/mirage/separator_top.png",
     "layer1.inner_margin": [1, 2, 1, 0],
     "layer1.opacity": 0.3
@@ -1147,7 +1147,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "button_control"}],
-    "color":  [66, 80, 94]
+    "color":  [80, 98, 115]
   },
 
   {
@@ -1162,7 +1162,7 @@
     "class": "icon_button_control",
     "layer0.tint": [0, 0, 0],
     "layer0.opacity": 0,
-    "layer2.tint": [230, 225, 207],
+    "layer2.tint": [217, 215, 206],
     "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
     "content_margin": [10, 5]
   },

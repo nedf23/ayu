@@ -102,9 +102,9 @@
 
   {
     "class": "auto_complete_label",
-    "fg": [130, 140, 153],
+    "fg": [71, 80, 89],
     "match_fg": [255, 106, 0],
-    "selected_fg": [71, 80, 89],
+    "selected_fg": [92, 103, 115],
     "selected_match_fg": [255, 106, 0]
   },
 
@@ -135,7 +135,7 @@
 
   {
     "class": "tool_tip_label_control",
-    "color": [130, 140, 153],
+    "color": [71, 80, 89],
     "font.face": "Roboto mono",
     "font.size": 12
   },
@@ -221,9 +221,9 @@
 
   {
     "class": "quick_panel_label",
-    "fg": [130, 140, 153],
+    "fg": [71, 80, 89],
     "match_fg": [255, 106, 0],
-    "selected_fg": [71, 80, 89],
+    "selected_fg": [92, 103, 115],
     "selected_match_fg": [255, 106, 0]
   },
 
@@ -232,9 +232,9 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [130, 140, 153],
+    "fg": [71, 80, 89],
     "match_fg": [255, 106, 0],
-    "selected_fg": [71, 80, 89],
+    "selected_fg": [92, 103, 115],
     "selected_match_fg": [255, 106, 0]
   },
 
@@ -243,17 +243,17 @@
   {
     "class": "quick_panel_path_label",
     "fg": [176, 190, 197],
-    "match_fg": [71, 80, 89],
-    "selected_fg": [130, 140, 153],
-    "selected_match_fg": [71, 80, 89]
+    "match_fg": [92, 103, 115],
+    "selected_fg": [71, 80, 89],
+    "selected_match_fg": [92, 103, 115]
   },
 
   // Panels data / score
 
   {
     "class": "quick_panel_score_label",
-    "fg": [130, 140, 153],
-    "selected_fg": [130, 140, 153]
+    "fg": [71, 80, 89],
+    "selected_fg": [71, 80, 89]
   },
 
 
@@ -355,7 +355,7 @@
 
   {
     "class": "tab_label",
-    "fg": [130, 140, 153],
+    "fg": [71, 80, 89],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
     "font.size": 12,
@@ -369,7 +369,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-    "fg": [71, 80, 89],
+    "fg": [92, 103, 115],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -567,7 +567,7 @@
 
   {
     "class": "sidebar_label",
-    "color": [130, 140, 153],
+    "color": [71, 80, 89],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0],
     "font.face": "Roboto mono",
@@ -577,13 +577,13 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "color": [71, 80, 89]
+    "color": [92, 103, 115]
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "color": [71, 80, 89],
+    "color": [92, 103, 115],
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -591,7 +591,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-    "color": [130, 140, 153],
+    "color": [71, 80, 89],
     "font.bold": false
   },
 
@@ -605,13 +605,13 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-    "color": [71, 80, 89]
+    "color": [92, 103, 115]
   },
 
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-    "color": [71, 80, 89]
+    "color": [92, 103, 115]
   },
 
   {
@@ -624,7 +624,7 @@
   // {
   //  "class": "sidebar_label",
   //  "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-  //  "color": [71, 80, 89]
+  //  "color": [92, 103, 115]
   // },
 
   {
@@ -992,7 +992,7 @@
 
   {
     "class": "label_control",
-    "color": [130, 140, 153],
+    "color": [71, 80, 89],
     "shadow_color": [0, 0, 0, 0],
     "shadow_offset": [0, 0],
     "font.bold": false,
@@ -1005,7 +1005,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "color": [130, 140, 153],
+    "color": [71, 80, 89],
     "font.bold": false
   },
 
@@ -1147,7 +1147,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "button_control"}],
-    "color":  [130, 140, 153]
+    "color":  [71, 80, 89]
   },
 
   {
@@ -1162,7 +1162,7 @@
     "class": "icon_button_control",
     "layer0.tint": [0, 0, 0],
     "layer0.opacity": 0,
-    "layer2.tint": [71, 80, 89],
+    "layer2.tint": [92, 103, 115],
     "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
     "content_margin": [10, 5]
   },

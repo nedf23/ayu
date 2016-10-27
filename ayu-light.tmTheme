@@ -115,6 +115,8 @@ a {
 			<string>keyword, storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#F2590C</string>
 			</dict>
@@ -378,6 +380,8 @@ a {
 			<string>entity.name.method.js</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#CCA37A</string>
 			</dict>

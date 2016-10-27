@@ -16,36 +16,36 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#"{syntax.active_guide}"</string>
+				<string>#"{syntax.active_guide.hex}"</string>
 				<key>background</key>
-				<string>#"{syntax.bg}"</string>
+				<string>#"{common.bg.hex}"</string>
 				<key>caret</key>
-				<string>#"{syntax.caret}"</string>
+				<string>#"{syntax.caret.hex}"</string>
 				<key>findHighlight</key>
-				<string>#"{syntax.constant}"</string>
+				<string>#"{syntax.constant.hex}"</string>
 				<key>findHighlightForeground</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#"{syntax.fg}"</string>
+				<string>#"{common.fg.hex}"</string>
 				<key>guide</key>
-				<string>#"{syntax.gutterFg}"</string>
+				<string>#"{syntax.gutterFg.hex}"</string>
 				<key>gutter</key>
-				<string>#"{syntax.bg}"</string>
+				<string>#"{common.bg.hex}"</string>
 				<key>gutterForeground</key>
-				<string>#"{syntax.gutterFg}"</string>
+				<string>#"{syntax.gutterFg.hex}"</string>
 				<key>inactiveBackground</key>
-				<string>#"{syntax.bg}"</string>
+				<string>#"{common.bg.hex}"</string>
 				<key>inactiveSelection</key>
-				<string>#"{syntax.in_selection}"</string>
+				<string>#"{syntax.in_selection.hex}"</string>
 				<key>invisibles</key>
 				<string>#FF0000</string>
 				<key>lineHighlight</key>
-				<string>#"{syntax.line_hg}"</string>
+				<string>#"{syntax.line_hg.hex}"</string>
 				<key>popupCss</key>
 				<string>html, body {
   background-color: #FFFFFF;
   font-size: 12px;
-  color: #"{syntax.fg}";
+  color: #"{common.fg.hex}";
   padding: 0;
 }
 body {
@@ -58,30 +58,30 @@ b, strong {
   font-weight: normal;
 }
 a {
-  color: rgba(65, 166, 217, .7);
+  color: rgba("{syntax.tag.rgb}", .7);
   line-height: 16px;
 }
 .type {
-  color: #"{syntax.sup_var}";
+  color: #"{syntax.sup_var.hex}";
 }
 .name {
-  color: #"{syntax.es_spec}";
+  color: #"{syntax.es_spec.hex}";
 }
 .param {
-  color: #"{syntax.func}";
+  color: #"{syntax.func.hex}";
 }
 .current {
   text-decoration: underline;
 }
 </string>
 				<key>selection</key>
-				<string>#"{syntax.selection}"</string>
+				<string>#"{syntax.selection.hex}"</string>
 				<key>selectionBorder</key>
-				<string>#"{syntax.selection}"</string>
+				<string>#"{syntax.selection.hex}"</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
-				<string>#"{syntax.stack_guide}"</string>
+				<string>#"{syntax.stack_guide.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,7 +94,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -105,7 +105,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.fg}"</string>
+				<string>#"{common.fg.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -115,8 +115,10 @@ a {
 			<string>keyword, storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +129,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.operator}"</string>
+				<string>#"{syntax.operator.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +140,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -149,7 +151,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.func}"</string>
+				<string>#"{syntax.func.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -160,7 +162,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.sup_var}"</string>
+				<string>#"{syntax.sup_var.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -171,7 +173,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.constant}"</string>
+				<string>#"{syntax.constant.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -184,7 +186,7 @@ a {
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#"{syntax.string}"</string>
+				<string>#"{syntax.string.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -195,7 +197,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -206,7 +208,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -219,7 +221,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -230,7 +232,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.error}"</string>
+				<string>#"{syntax.error.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -241,7 +243,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -254,7 +256,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag_punc}"</string>
+				<string>#"{syntax.tag.hex}"90</string>
 			</dict>
 		</dict>
 		<dict>
@@ -265,7 +267,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -276,7 +278,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.string}"</string>
+				<string>#"{syntax.string.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -287,7 +289,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -298,7 +300,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -309,7 +311,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.regexp}"</string>
+				<string>#"{syntax.regexp.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -331,7 +333,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -342,7 +344,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.string}"</string>
+				<string>#"{syntax.string.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -355,7 +357,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -368,7 +370,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -378,8 +380,10 @@ a {
 			<string>entity.name.method.js</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -390,7 +394,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -403,7 +407,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.sup_var}"</string>
+				<string>#"{syntax.sup_var.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -416,7 +420,7 @@ a {
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#"{syntax.sup_var}"</string>
+				<string>#"{syntax.sup_var.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -429,7 +433,7 @@ a {
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#"{syntax.constant}"</string>
+				<string>#"{syntax.constant.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -442,7 +446,7 @@ a {
 				<key>fontStyle</key>
 				<string>strike</string>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -455,7 +459,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.operator}"</string>
+				<string>#"{syntax.operator.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -466,7 +470,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -479,7 +483,7 @@ a {
 				<key>background</key>
 				<string>#3cadd71a</string>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -490,7 +494,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.fg}"</string>
+				<string>#"{common.fg.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -501,7 +505,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -512,7 +516,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -523,7 +527,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.string}"</string>
+				<string>#"{syntax.string.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -536,7 +540,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#"{syntax.operator}"</string>
+				<string>#"{syntax.operator.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -549,7 +553,7 @@ a {
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -562,7 +566,7 @@ a {
 				<key>background</key>
 				<string>#ffffff10</string>
 				<key>foreground</key>
-				<string>#"{syntax.fg}"</string>
+				<string>#"{common.fg.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -575,7 +579,7 @@ a {
 				<key>background</key>
 				<string>#ffffff10</string>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -588,7 +592,7 @@ a {
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -603,7 +607,7 @@ a {
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -614,7 +618,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -625,7 +629,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -636,7 +640,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.sup_var}"</string>
+				<string>#"{syntax.sup_var.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -647,7 +651,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -658,7 +662,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.es_spec}"</string>
+				<string>#"{syntax.es_spec.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -669,7 +673,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -680,7 +684,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.constant}"</string>
+				<string>#"{syntax.constant.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -691,7 +695,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -702,7 +706,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -713,7 +717,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -726,7 +730,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#"{syntax.string}"</string>
+				<string>#"{syntax.string.hex}"</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -739,7 +743,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#"{syntax.keyword}"</string>
+				<string>#"{syntax.keyword.hex}"</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -752,7 +756,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#"{syntax.sup_var}"</string>
+				<string>#"{syntax.sup_var.hex}"</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -765,7 +769,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.tag}"</string>
+				<string>#"{syntax.tag.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -787,7 +791,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.error}"</string>
+				<string>#"{syntax.error.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -798,7 +802,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
@@ -809,7 +813,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#"{syntax.comment}"</string>
+				<string>#"{syntax.comment.hex}"</string>
 			</dict>
 		</dict>
 		<dict>
