@@ -3,14 +3,14 @@ theme: light
 common:
   fg: 5C6773
   bg: FAFAFA
+  accent: FF6A00
 
 ui:
   fg: '475059'
   panel_bg: FFFFFF
 
   scrollbar:
-    puck: '0, 0, 0'
-  accent: '255, 106, 0'
+    puck: '000000'
 
   divider: '217, 221, 226'
   panel_path_fg: '176, 190, 197'

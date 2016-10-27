@@ -3,14 +3,15 @@ theme: dark
 common:
   bg: 0F1419
   fg: E6E1CF
+  accent: F29718
 
 ui:
   fg: 'E6E1CF'
   panel_bg: 14191F
 
   scrollbar:
-    puck: '255, 255, 255'
-  accent: '242, 151, 24'
+    puck: 'FFFFFF'
+
   divider: '30, 38, 47'
   panel_bg: '20, 25, 31'
   panel_path_fg: '66, 80, 94'

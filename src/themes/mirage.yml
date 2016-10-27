@@ -3,14 +3,14 @@ theme: mirage
 common:
   bg: '212733'
   fg: D9D7CE
+  accent: F29718
 
 ui:
   fg: '506273'
-
   panel_bg: 272D38
+
   scrollbar:
-    puck: '255, 255, 255'
-  accent: '242, 151, 24'
+    puck: 'FFFFFF'
 
   divider: '39, 45, 56'
   panel_bg: '39, 45, 56'
